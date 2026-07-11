@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29123.88
+# Visual Studio Version 18
+VisualStudioVersion = 18.8.11925.187 insiders
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleTrader.Domain", "SimpleTrader.Domain\SimpleTrader.Domain.csproj", "{554EDDCC-D3C2-44B2-9592-2FECDEE8C252}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kaizen.Domain", "SimpleTrader.Domain\Kaizen.Domain.csproj", "{554EDDCC-D3C2-44B2-9592-2FECDEE8C252}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleTrader.EntityFramework", "SimpleTrader.EntityFramework\SimpleTrader.EntityFramework.csproj", "{71350956-7222-4ED4-9BC6-82FC192A2F95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kaizen.EntityFramework", "SimpleTrader.EntityFramework\Kaizen.EntityFramework.csproj", "{71350956-7222-4ED4-9BC6-82FC192A2F95}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleTrader.WPF", "SimpleTrader.WPF\SimpleTrader.WPF.csproj", "{9CCFE657-48C0-4479-A0B8-6662378A4191}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kaizen.WPF", "SimpleTrader.WPF\Kaizen.WPF.csproj", "{9CCFE657-48C0-4479-A0B8-6662378A4191}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleTrader.FinancialModelingPrepAPI", "SimpleTrader.FinancialModelingPrepAPI\SimpleTrader.FinancialModelingPrepAPI.csproj", "{945DCC0D-FADC-460A-8A75-6430D77B8075}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kaizen.FinancialModelingPrepAPI", "SimpleTrader.FinancialModelingPrepAPI\Kaizen.FinancialModelingPrepAPI.csproj", "{945DCC0D-FADC-460A-8A75-6430D77B8075}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTrader.Domain.Tests", "SimpleTrader.Domain.Tests\SimpleTrader.Domain.Tests.csproj", "{D1D4CA94-275E-4C10-A784-C128AEA79130}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaizen.Domain.Tests", "SimpleTrader.Domain.Tests\Kaizen.Domain.Tests.csproj", "{D1D4CA94-275E-4C10-A784-C128AEA79130}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
