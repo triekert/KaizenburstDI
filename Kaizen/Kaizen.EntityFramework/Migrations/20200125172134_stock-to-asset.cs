@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace SimpleTrader.EntityFramework.Migrations
+namespace Kaiizen.EntityFramework.Migrations
 {
     public partial class stocktoasset : Migration
     {

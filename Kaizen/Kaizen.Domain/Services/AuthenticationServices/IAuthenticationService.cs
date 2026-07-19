@@ -1,11 +1,11 @@
-﻿using SimpleTrader.Domain.Models;
-using SimpleTrader.Domain.Exceptions;
+﻿using Kaiizen.Domain.Models;
+using Kaiizen.Domain.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleTrader.Domain.Services.AuthenticationServices
+namespace Kaiizen.Domain.Services.AuthenticationServices
 {
     public enum RegistrationResult
     {

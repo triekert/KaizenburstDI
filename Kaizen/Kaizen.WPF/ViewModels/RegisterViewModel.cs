@@ -1,12 +1,12 @@
-﻿using SimpleTrader.WPF.Commands;
-using SimpleTrader.WPF.State.Authenticators;
-using SimpleTrader.WPF.State.Navigators;
+﻿using Kaiizen.WPF.Commands;
+using Kaiizen.WPF.State.Authenticators;
+using Kaiizen.WPF.State.Navigators;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Input;
 
-namespace SimpleTrader.WPF.ViewModels
+namespace Kaiizen.WPF.ViewModels
 {
     public class RegisterViewModel : ViewModelBase
     {

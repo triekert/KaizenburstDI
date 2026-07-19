@@ -1,12 +1,12 @@
 ﻿using Newtonsoft.Json;
-using SimpleTrader.FinancialModelingPrepAPI.Models;
+using Kaiizen.FinancialModelingPrepAPI.Models;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleTrader.FinancialModelingPrepAPI
+namespace Kaiizen.FinancialModelingPrepAPI
 {
     public class FinancialModelingPrepHttpClient
     {

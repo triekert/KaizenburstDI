@@ -1,10 +1,10 @@
-﻿using SimpleTrader.WPF.ViewModels;
-using SimpleTrader.WPF.ViewModels.Factories;
+﻿using Kaiizen.WPF.ViewModels;
+using Kaiizen.WPF.ViewModels.Factories;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimpleTrader.WPF.State.Navigators
+namespace Kaiizen.WPF.State.Navigators
 {
     public class ViewModelDelegateRenavigator<TViewModel> : IRenavigator where TViewModel : ViewModelBase
     {

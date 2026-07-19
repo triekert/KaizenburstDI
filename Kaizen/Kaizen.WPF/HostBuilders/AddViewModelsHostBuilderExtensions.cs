@@ -1,16 +1,16 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using SimpleTrader.Domain.Services;
-using SimpleTrader.WPF.State.Assets;
-using SimpleTrader.WPF.State.Authenticators;
-using SimpleTrader.WPF.State.Navigators;
-using SimpleTrader.WPF.ViewModels;
-using SimpleTrader.WPF.ViewModels.Factories;
+using Kaiizen.Domain.Services;
+using Kaiizen.WPF.State.Assets;
+using Kaiizen.WPF.State.Authenticators;
+using Kaiizen.WPF.State.Navigators;
+using Kaiizen.WPF.ViewModels;
+using Kaiizen.WPF.ViewModels.Factories;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimpleTrader.WPF.HostBuilders
+namespace Kaiizen.WPF.HostBuilders
 {
     public static class AddViewModelsHostBuilderExtensions
     {
@@ -32,7 +32,7 @@ namespace SimpleTrader.WPF.HostBuilders
                 services.AddSingleton<CreateViewModel<LoginViewModel>>(services => () => CreateLoginViewModel(services));
                 services.AddSingleton<CreateViewModel<RegisterViewModel>>(services => () => CreateRegisterViewModel(services));
                 
-                services.AddSingleton<ISimpleTraderViewModelFactory, SimpleTraderViewModelFactory>();
+                services.AddSingleton<IKaiizenViewModelFactory, KaiizenViewModelFactory>();
 
                 services.AddSingleton<ViewModelDelegateRenavigator<HomeViewModel>>();
                 services.AddSingleton<ViewModelDelegateRenavigator<LoginViewModel>>();

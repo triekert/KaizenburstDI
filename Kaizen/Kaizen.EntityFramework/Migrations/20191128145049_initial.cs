@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace SimpleTrader.EntityFramework.Migrations
+namespace Kaiizen.EntityFramework.Migrations
 {
     public partial class initial : Migration
     {

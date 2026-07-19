@@ -1,13 +1,13 @@
-﻿using SimpleTrader.Domain.Models;
-using SimpleTrader.Domain.Services;
-using SimpleTrader.WPF.ViewModels;
+﻿using Kaiizen.Domain.Models;
+using Kaiizen.Domain.Services;
+using Kaiizen.WPF.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleTrader.WPF.Commands
+namespace Kaiizen.WPF.Commands
 {
     public class LoadMajorIndexesCommand : AsyncCommandBase
     {

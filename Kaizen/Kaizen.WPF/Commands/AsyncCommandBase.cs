@@ -4,7 +4,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace SimpleTrader.WPF.Commands
+namespace Kaiizen.WPF.Commands
 {
     public abstract class AsyncCommandBase : ICommand
     {

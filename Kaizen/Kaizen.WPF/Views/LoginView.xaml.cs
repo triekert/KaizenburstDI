@@ -11,7 +11,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SimpleTrader.WPF.Views
+namespace Kaiizen.WPF.Views
 {
     /// <summary>
     /// Interaction logic for LoginView.xaml

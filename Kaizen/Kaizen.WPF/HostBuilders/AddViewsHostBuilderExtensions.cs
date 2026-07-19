@@ -1,11 +1,11 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using SimpleTrader.WPF.ViewModels;
+using Kaiizen.WPF.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimpleTrader.WPF.HostBuilders
+namespace Kaiizen.WPF.HostBuilders
 {
     public static class AddViewsHostBuilderExtensions
     {

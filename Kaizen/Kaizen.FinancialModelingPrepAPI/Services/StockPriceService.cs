@@ -1,14 +1,14 @@
 ﻿using Newtonsoft.Json;
-using SimpleTrader.Domain.Exceptions;
-using SimpleTrader.Domain.Services;
-using SimpleTrader.FinancialModelingPrepAPI.Results;
+using Kaiizen.Domain.Exceptions;
+using Kaiizen.Domain.Services;
+using Kaiizen.FinancialModelingPrepAPI.Results;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleTrader.FinancialModelingPrepAPI.Services
+namespace Kaiizen.FinancialModelingPrepAPI.Services
 {
     public class StockPriceService : IStockPriceService
     {

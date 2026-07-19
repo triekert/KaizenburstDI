@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace SimpleTrader.WPF.ViewModels
+namespace Kaiizen.WPF.ViewModels
 {
     public interface ISearchSymbolViewModel : INotifyPropertyChanged
     {

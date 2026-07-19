@@ -1,10 +1,10 @@
-﻿using SimpleTrader.WPF.ViewModels;
+﻿using Kaiizen.WPF.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Input;
 
-namespace SimpleTrader.WPF.State.Navigators
+namespace Kaiizen.WPF.State.Navigators
 {
     public enum ViewType
     {

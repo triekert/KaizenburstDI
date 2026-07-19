@@ -4,12 +4,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using SimpleTrader.EntityFramework;
+using Kaiizen.EntityFramework;
 
-namespace SimpleTrader.EntityFramework.Migrations
+namespace Kaiizen.EntityFramework.Migrations
 {
-    [DbContext(typeof(SimpleTraderDbContext))]
-    partial class SimpleTraderDbContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(KaiizenDbContext))]
+    partial class KaiizenDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
@@ -19,7 +19,7 @@ namespace SimpleTrader.EntityFramework.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("SimpleTrader.Domain.Models.Account", b =>
+            modelBuilder.Entity("Kaiizen.Domain.Models.Account", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -39,7 +39,7 @@ namespace SimpleTrader.EntityFramework.Migrations
                     b.ToTable("Accounts");
                 });
 
-            modelBuilder.Entity("SimpleTrader.Domain.Models.AssetTransaction", b =>
+            modelBuilder.Entity("Kaiizen.Domain.Models.AssetTransaction", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -65,7 +65,7 @@ namespace SimpleTrader.EntityFramework.Migrations
                     b.ToTable("AssetTransactions");
                 });
 
-            modelBuilder.Entity("SimpleTrader.Domain.Models.User", b =>
+            modelBuilder.Entity("Kaiizen.Domain.Models.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -89,20 +89,20 @@ namespace SimpleTrader.EntityFramework.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("SimpleTrader.Domain.Models.Account", b =>
+            modelBuilder.Entity("Kaiizen.Domain.Models.Account", b =>
                 {
-                    b.HasOne("SimpleTrader.Domain.Models.User", "AccountHolder")
+                    b.HasOne("Kaiizen.Domain.Models.User", "AccountHolder")
                         .WithMany()
                         .HasForeignKey("AccountHolderId");
                 });
 
-            modelBuilder.Entity("SimpleTrader.Domain.Models.AssetTransaction", b =>
+            modelBuilder.Entity("Kaiizen.Domain.Models.AssetTransaction", b =>
                 {
-                    b.HasOne("SimpleTrader.Domain.Models.Account", "Account")
+                    b.HasOne("Kaiizen.Domain.Models.Account", "Account")
                         .WithMany("AssetTransactions")
                         .HasForeignKey("AccountId");
 
-                    b.OwnsOne("SimpleTrader.Domain.Models.Asset", "Asset", b1 =>
+                    b.OwnsOne("Kaiizen.Domain.Models.Asset", "Asset", b1 =>
                         {
                             b1.Property<int>("AssetTransactionId")
                                 .ValueGeneratedOnAdd()

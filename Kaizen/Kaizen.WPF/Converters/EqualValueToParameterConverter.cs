@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Text;
 using System.Windows.Data;
 
-namespace SimpleTrader.WPF.Converters
+namespace Kaiizen.WPF.Converters
 {
     public class EqualValueToParameterConverter : IValueConverter
     {

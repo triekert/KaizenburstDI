@@ -1,13 +1,13 @@
-﻿using SimpleTrader.Domain.Models;
-using SimpleTrader.Domain.Services;
-using SimpleTrader.WPF.Commands;
+﻿using Kaiizen.Domain.Models;
+using Kaiizen.Domain.Services;
+using Kaiizen.WPF.Commands;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace SimpleTrader.WPF.ViewModels
+namespace Kaiizen.WPF.ViewModels
 {
     public class MajorIndexListingViewModel : ViewModelBase
     {

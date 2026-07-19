@@ -1,10 +1,10 @@
 ﻿<Application
-    x:Class="SimpleTrader.WPF.App"
+    x:Class="Kaiizen.WPF.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="clr-namespace:SimpleTrader.WPF"
-    xmlns:viewmodels="clr-namespace:SimpleTrader.WPF.ViewModels"
-    xmlns:views="clr-namespace:SimpleTrader.WPF.Views">
+    xmlns:local="clr-namespace:Kaiizen.WPF"
+    xmlns:viewmodels="clr-namespace:Kaiizen.WPF.ViewModels"
+    xmlns:views="clr-namespace:Kaiizen.WPF.Views">
     <Application.Resources>
 
         <ResourceDictionary>

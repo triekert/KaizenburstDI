@@ -1,6 +1,6 @@
-﻿using SimpleTrader.Domain.Exceptions;
-using SimpleTrader.Domain.Services;
-using SimpleTrader.WPF.ViewModels;
+﻿using Kaiizen.Domain.Exceptions;
+using Kaiizen.Domain.Services;
+using Kaiizen.WPF.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
 
-namespace SimpleTrader.WPF.Commands
+namespace Kaiizen.WPF.Commands
 {
     public class SearchSymbolCommand : AsyncCommandBase
     {

@@ -1,21 +1,21 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
-using SimpleTrader.Domain.Models;
-using SimpleTrader.Domain.Services;
-using SimpleTrader.EntityFramework.Services.Common;
+using Kaiizen.Domain.Models;
+using Kaiizen.Domain.Services;
+using Kaiizen.EntityFramework.Services.Common;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleTrader.EntityFramework.Services
+namespace Kaiizen.EntityFramework.Services
 {
     public class GenericDataService<T> : IDataService<T> where T : DomainObject
     {
-        private readonly SimpleTraderDbContextFactory _contextFactory;
+        private readonly KaiizenDbContextFactory _contextFactory;
         private readonly NonQueryDataService<T> _nonQueryDataService;
 
-        public GenericDataService(SimpleTraderDbContextFactory contextFactory)
+        public GenericDataService(KaiizenDbContextFactory contextFactory)
         {
             _contextFactory = contextFactory;
             _nonQueryDataService = new NonQueryDataService<T>(contextFactory);
@@ -33,7 +33,7 @@ namespace SimpleTrader.EntityFramework.Services
 
         public async Task<T> Get(int id)
         {
-            using(SimpleTraderDbContext context = _contextFactory.CreateDbContext())
+            using(KaiizenDbContext context = _contextFactory.CreateDbContext())
             {
                 T entity = await context.Set<T>().FirstOrDefaultAsync((e) => e.Id == id);
                 return entity;
@@ -42,7 +42,7 @@ namespace SimpleTrader.EntityFramework.Services
 
         public async Task<IEnumerable<T>> GetAll()
         {
-            using(SimpleTraderDbContext context = _contextFactory.CreateDbContext())
+            using(KaiizenDbContext context = _contextFactory.CreateDbContext())
             {
                 IEnumerable<T> entities = await context.Set<T>().ToListAsync();
                 return entities;

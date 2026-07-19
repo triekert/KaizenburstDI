@@ -1,17 +1,17 @@
-﻿using SimpleTrader.WPF.Commands;
-using SimpleTrader.WPF.State.Authenticators;
-using SimpleTrader.WPF.State.Navigators;
-using SimpleTrader.WPF.ViewModels.Factories;
+﻿using Kaiizen.WPF.Commands;
+using Kaiizen.WPF.State.Authenticators;
+using Kaiizen.WPF.State.Navigators;
+using Kaiizen.WPF.ViewModels.Factories;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Input;
 
-namespace SimpleTrader.WPF.ViewModels
+namespace Kaiizen.WPF.ViewModels
 {
     public class MainViewModel : ViewModelBase
     {
-        private readonly ISimpleTraderViewModelFactory _viewModelFactory;
+        private readonly IKaiizenViewModelFactory _viewModelFactory;
         private readonly INavigator _navigator;
         private readonly IAuthenticator _authenticator;
 
@@ -20,7 +20,7 @@ namespace SimpleTrader.WPF.ViewModels
 
         public ICommand UpdateCurrentViewModelCommand { get; }
 
-        public MainViewModel(INavigator navigator, ISimpleTraderViewModelFactory viewModelFactory, IAuthenticator authenticator)
+        public MainViewModel(INavigator navigator, IKaiizenViewModelFactory viewModelFactory, IAuthenticator authenticator)
         {
             _navigator = navigator;
             _viewModelFactory = viewModelFactory;

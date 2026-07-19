@@ -1,11 +1,11 @@
-﻿using SimpleTrader.WPF.State.Assets;
+﻿using Kaiizen.WPF.State.Assets;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 
-namespace SimpleTrader.WPF.ViewModels
+namespace Kaiizen.WPF.ViewModels
 {
     public class AssetListingViewModel : ViewModelBase
     {

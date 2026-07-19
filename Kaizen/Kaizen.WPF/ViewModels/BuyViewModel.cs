@@ -1,13 +1,13 @@
-﻿using SimpleTrader.Domain.Services;
-using SimpleTrader.Domain.Services.TransactionServices;
-using SimpleTrader.WPF.Commands;
-using SimpleTrader.WPF.State.Accounts;
+﻿using Kaiizen.Domain.Services;
+using Kaiizen.Domain.Services.TransactionServices;
+using Kaiizen.WPF.Commands;
+using Kaiizen.WPF.State.Accounts;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Input;
 
-namespace SimpleTrader.WPF.ViewModels
+namespace Kaiizen.WPF.ViewModels
 {
     public class BuyViewModel : ViewModelBase, ISearchSymbolViewModel
     {

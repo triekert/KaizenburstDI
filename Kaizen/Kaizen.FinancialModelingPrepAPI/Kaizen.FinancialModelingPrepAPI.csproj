@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SimpleTrader.Domain\Kaizen.Domain.csproj" />
+    <ProjectReference Include="..\Kaizen.Domain\Kaizen.Domain.csproj" />
   </ItemGroup>
 
 </Project>

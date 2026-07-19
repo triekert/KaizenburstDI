@@ -1,9 +1,9 @@
-﻿using SimpleTrader.FinancialModelingPrepAPI.Services;
+﻿using Kaiizen.FinancialModelingPrepAPI.Services;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimpleTrader.WPF.ViewModels
+namespace Kaiizen.WPF.ViewModels
 {
     public class HomeViewModel : ViewModelBase
     {

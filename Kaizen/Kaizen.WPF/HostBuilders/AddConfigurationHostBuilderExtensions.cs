@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimpleTrader.WPF.HostBuilders
+namespace Kaiizen.WPF.HostBuilders
 {
     public static class AddConfigurationHostBuilderExtensions
     {

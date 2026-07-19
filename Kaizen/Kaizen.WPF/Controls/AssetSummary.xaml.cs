@@ -11,7 +11,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SimpleTrader.WPF.Controls
+namespace Kaiizen.WPF.Controls
 {
     /// <summary>
     /// Interaction logic for AssetSummary.xaml

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimpleTrader.Domain.Models
+namespace Kaiizen.Domain.Models
 {
     public class Account : DomainObject
     {

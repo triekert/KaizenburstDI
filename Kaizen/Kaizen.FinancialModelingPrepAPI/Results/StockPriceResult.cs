@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimpleTrader.FinancialModelingPrepAPI.Results
+namespace Kaiizen.FinancialModelingPrepAPI.Results
 {
     public class StockPriceResult
     {

@@ -1,13 +1,13 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using SimpleTrader.FinancialModelingPrepAPI;
-using SimpleTrader.FinancialModelingPrepAPI.Models;
+using Kaiizen.FinancialModelingPrepAPI;
+using Kaiizen.FinancialModelingPrepAPI.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimpleTrader.WPF.HostBuilders
+namespace Kaiizen.WPF.HostBuilders
 {
     public static class AddFinanceAPIHostBuilderExtensions
     {

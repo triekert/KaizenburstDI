@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using SimpleTrader.Domain.Exceptions;
+using Kaiizen.Domain.Exceptions;
 using System.Threading.Tasks;
 
-namespace SimpleTrader.Domain.Services
+namespace Kaiizen.Domain.Services
 {
     public interface IStockPriceService
     {

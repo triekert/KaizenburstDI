@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.Serialization;
 using System.Text;
 
-namespace SimpleTrader.Domain.Exceptions
+namespace Kaiizen.Domain.Exceptions
 {
     public class InsufficientSharesException : Exception
     {

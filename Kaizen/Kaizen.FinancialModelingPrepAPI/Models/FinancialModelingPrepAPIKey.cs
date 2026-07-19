@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimpleTrader.FinancialModelingPrepAPI.Models
+namespace Kaiizen.FinancialModelingPrepAPI.Models
 {
     public class FinancialModelingPrepAPIKey
     {

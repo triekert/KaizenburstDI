@@ -1,8 +1,8 @@
-﻿using SimpleTrader.Domain.Exceptions;
-using SimpleTrader.WPF.State.Authenticators;
-using SimpleTrader.WPF.State.Navigators;
-using SimpleTrader.WPF.ViewModels;
-using SimpleTrader.WPF.ViewModels.Factories;
+﻿using Kaiizen.Domain.Exceptions;
+using Kaiizen.WPF.State.Authenticators;
+using Kaiizen.WPF.State.Navigators;
+using Kaiizen.WPF.ViewModels;
+using Kaiizen.WPF.ViewModels.Factories;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace SimpleTrader.WPF.Commands
+namespace Kaiizen.WPF.Commands
 {
     public class LoginCommand : AsyncCommandBase
     {

@@ -2,12 +2,12 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using SimpleTrader.EntityFramework;
+using Kaiizen.EntityFramework;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimpleTrader.WPF.HostBuilders
+namespace Kaiizen.WPF.HostBuilders
 {
     public static class AddDbContextHostBuilderExtensions
     {
@@ -18,8 +18,8 @@ namespace SimpleTrader.WPF.HostBuilders
                 string connectionString = context.Configuration.GetConnectionString("sqlite");
                 Action<DbContextOptionsBuilder> configureDbContext = o => o.UseSqlite(connectionString);
 
-                services.AddDbContext<SimpleTraderDbContext>(configureDbContext);
-                services.AddSingleton<SimpleTraderDbContextFactory>(new SimpleTraderDbContextFactory(configureDbContext));
+                services.AddDbContext<KaiizenDbContext>(configureDbContext);
+                services.AddSingleton<KaiizenDbContextFactory>(new KaiizenDbContextFactory(configureDbContext));
             });
 
             return host;

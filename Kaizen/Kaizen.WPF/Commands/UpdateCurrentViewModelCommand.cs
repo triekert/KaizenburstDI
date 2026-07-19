@@ -1,22 +1,22 @@
-﻿using SimpleTrader.FinancialModelingPrepAPI.Services;
-using SimpleTrader.WPF.State.Navigators;
-using SimpleTrader.WPF.ViewModels;
-using SimpleTrader.WPF.ViewModels.Factories;
+﻿using Kaiizen.FinancialModelingPrepAPI.Services;
+using Kaiizen.WPF.State.Navigators;
+using Kaiizen.WPF.ViewModels;
+using Kaiizen.WPF.ViewModels.Factories;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Input;
 
-namespace SimpleTrader.WPF.Commands
+namespace Kaiizen.WPF.Commands
 {
     public class UpdateCurrentViewModelCommand : ICommand
     {
         public event EventHandler CanExecuteChanged;
 
         private readonly INavigator _navigator;
-        private readonly ISimpleTraderViewModelFactory _viewModelFactory;
+        private readonly IKaiizenViewModelFactory _viewModelFactory;
 
-        public UpdateCurrentViewModelCommand(INavigator navigator, ISimpleTraderViewModelFactory viewModelFactory)
+        public UpdateCurrentViewModelCommand(INavigator navigator, IKaiizenViewModelFactory viewModelFactory)
         {
             _navigator = navigator;
             _viewModelFactory = viewModelFactory;

@@ -1,11 +1,11 @@
-﻿using SimpleTrader.WPF.State.Navigators;
+﻿using Kaiizen.WPF.State.Navigators;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimpleTrader.WPF.ViewModels.Factories
+namespace Kaiizen.WPF.ViewModels.Factories
 {
-    public class SimpleTraderViewModelFactory : ISimpleTraderViewModelFactory
+    public class KaiizenViewModelFactory : IKaiizenViewModelFactory
     {
         private readonly CreateViewModel<HomeViewModel> _createHomeViewModel;
         private readonly CreateViewModel<PortfolioViewModel> _createPortfolioViewModel;
@@ -13,7 +13,7 @@ namespace SimpleTrader.WPF.ViewModels.Factories
         private readonly CreateViewModel<BuyViewModel> _createBuyViewModel;
         private readonly CreateViewModel<SellViewModel> _createSellViewModel;
 
-        public SimpleTraderViewModelFactory(CreateViewModel<HomeViewModel> createHomeViewModel,
+        public KaiizenViewModelFactory(CreateViewModel<HomeViewModel> createHomeViewModel,
             CreateViewModel<PortfolioViewModel> createPortfolioViewModel,
             CreateViewModel<LoginViewModel> createLoginViewModel,
             CreateViewModel<BuyViewModel> createBuyViewModel, 

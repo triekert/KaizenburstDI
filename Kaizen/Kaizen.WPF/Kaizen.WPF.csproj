@@ -22,9 +22,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SimpleTrader.Domain\Kaizen.Domain.csproj" />
-    <ProjectReference Include="..\SimpleTrader.EntityFramework\Kaizen.EntityFramework.csproj" />
-    <ProjectReference Include="..\SimpleTrader.FinancialModelingPrepAPI\Kaizen.FinancialModelingPrepAPI.csproj" />
+    <ProjectReference Include="..\Kaizen.Domain\Kaizen.Domain.csproj" />
+    <ProjectReference Include="..\Kaizen.EntityFramework\Kaizen.EntityFramework.csproj" />
+    <ProjectReference Include="..\Kaizen.FinancialModelingPrepAPI\Kaizen.FinancialModelingPrepAPI.csproj" />
   </ItemGroup>
 
   <ItemGroup>

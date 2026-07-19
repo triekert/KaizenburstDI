@@ -4,24 +4,24 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimpleTrader.EntityFramework
+namespace Kaiizen.EntityFramework
 {
-    public class SimpleTraderDbContextFactory
+    public class KaiizenDbContextFactory
     {
         private readonly Action<DbContextOptionsBuilder> _configureDbContext;
 
-        public SimpleTraderDbContextFactory(Action<DbContextOptionsBuilder> configureDbContext)
+        public KaiizenDbContextFactory(Action<DbContextOptionsBuilder> configureDbContext)
         {
             _configureDbContext = configureDbContext;
         }
 
-        public SimpleTraderDbContext CreateDbContext()
+        public KaiizenDbContext CreateDbContext()
         {
-            DbContextOptionsBuilder<SimpleTraderDbContext> options = new DbContextOptionsBuilder<SimpleTraderDbContext>();
+            DbContextOptionsBuilder<KaiizenDbContext> options = new DbContextOptionsBuilder<KaiizenDbContext>();
 
             _configureDbContext(options);
 
-            return new SimpleTraderDbContext(options.Options);
+            return new KaiizenDbContext(options.Options);
         }
     }
 }

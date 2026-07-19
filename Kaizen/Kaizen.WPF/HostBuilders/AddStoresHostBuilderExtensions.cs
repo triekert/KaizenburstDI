@@ -1,14 +1,14 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using SimpleTrader.WPF.State.Accounts;
-using SimpleTrader.WPF.State.Assets;
-using SimpleTrader.WPF.State.Authenticators;
-using SimpleTrader.WPF.State.Navigators;
+using Kaiizen.WPF.State.Accounts;
+using Kaiizen.WPF.State.Assets;
+using Kaiizen.WPF.State.Authenticators;
+using Kaiizen.WPF.State.Navigators;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimpleTrader.WPF.HostBuilders
+namespace Kaiizen.WPF.HostBuilders
 {
     public static class AddStoresHostBuilderExtensions
     {

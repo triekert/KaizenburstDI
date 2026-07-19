@@ -1,17 +1,17 @@
 ﻿using Microsoft.AspNet.Identity;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using SimpleTrader.Domain.Models;
-using SimpleTrader.Domain.Services;
-using SimpleTrader.Domain.Services.AuthenticationServices;
-using SimpleTrader.Domain.Services.TransactionServices;
-using SimpleTrader.EntityFramework.Services;
-using SimpleTrader.FinancialModelingPrepAPI.Services;
+using Kaiizen.Domain.Models;
+using Kaiizen.Domain.Services;
+using Kaiizen.Domain.Services.AuthenticationServices;
+using Kaiizen.Domain.Services.TransactionServices;
+using Kaiizen.EntityFramework.Services;
+using Kaiizen.FinancialModelingPrepAPI.Services;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimpleTrader.WPF.HostBuilders
+namespace Kaiizen.WPF.HostBuilders
 {
     public static class AddServicesHostBuilderExtensions
     {

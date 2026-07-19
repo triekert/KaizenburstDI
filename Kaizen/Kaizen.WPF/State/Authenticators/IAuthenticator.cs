@@ -1,12 +1,12 @@
-﻿using SimpleTrader.Domain.Models;
-using SimpleTrader.Domain.Exceptions;
-using SimpleTrader.Domain.Services.AuthenticationServices;
+﻿using Kaiizen.Domain.Models;
+using Kaiizen.Domain.Exceptions;
+using Kaiizen.Domain.Services.AuthenticationServices;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleTrader.WPF.State.Authenticators
+namespace Kaiizen.WPF.State.Authenticators
 {
     public interface IAuthenticator
     {

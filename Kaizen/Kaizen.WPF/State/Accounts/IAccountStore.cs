@@ -1,9 +1,9 @@
-﻿using SimpleTrader.Domain.Models;
+﻿using Kaiizen.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimpleTrader.WPF.State.Accounts
+namespace Kaiizen.WPF.State.Accounts
 {
     public interface IAccountStore
     {

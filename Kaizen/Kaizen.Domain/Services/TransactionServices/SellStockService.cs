@@ -1,12 +1,12 @@
-﻿using SimpleTrader.Domain.Exceptions;
-using SimpleTrader.Domain.Models;
+﻿using Kaiizen.Domain.Exceptions;
+using Kaiizen.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleTrader.Domain.Services.TransactionServices
+namespace Kaiizen.Domain.Services.TransactionServices
 {
     public class SellStockService : ISellStockService
     {

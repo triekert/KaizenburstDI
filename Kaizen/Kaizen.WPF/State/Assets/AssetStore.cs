@@ -1,10 +1,10 @@
-﻿using SimpleTrader.Domain.Models;
-using SimpleTrader.WPF.State.Accounts;
+﻿using Kaiizen.Domain.Models;
+using Kaiizen.WPF.State.Accounts;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimpleTrader.WPF.State.Assets
+namespace Kaiizen.WPF.State.Assets
 {
     public class AssetStore
     {

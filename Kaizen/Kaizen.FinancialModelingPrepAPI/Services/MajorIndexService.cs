@@ -1,13 +1,13 @@
 ﻿using Newtonsoft.Json;
-using SimpleTrader.Domain.Models;
-using SimpleTrader.Domain.Services;
+using Kaiizen.Domain.Models;
+using Kaiizen.Domain.Services;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleTrader.FinancialModelingPrepAPI.Services
+namespace Kaiizen.FinancialModelingPrepAPI.Services
 {
     public class MajorIndexService : IMajorIndexService
     {

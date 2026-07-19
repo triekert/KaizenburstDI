@@ -1,15 +1,15 @@
 ﻿using Moq;
 using NUnit.Framework;
-using SimpleTrader.Domain.Exceptions;
-using SimpleTrader.Domain.Models;
-using SimpleTrader.Domain.Services;
-using SimpleTrader.Domain.Services.TransactionServices;
+using Kaiizen.Domain.Exceptions;
+using Kaiizen.Domain.Models;
+using Kaiizen.Domain.Services;
+using Kaiizen.Domain.Services.TransactionServices;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleTrader.Domain.Tests.Services.TransactionServices
+namespace Kaiizen.Domain.Tests.Services.TransactionServices
 {
     [TestFixture]
     public class SellStockServiceTests

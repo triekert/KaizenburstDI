@@ -1,11 +1,11 @@
-﻿using SimpleTrader.WPF.State.Navigators;
+﻿using Kaiizen.WPF.State.Navigators;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimpleTrader.WPF.ViewModels.Factories
+namespace Kaiizen.WPF.ViewModels.Factories
 {
-    public interface ISimpleTraderViewModelFactory
+    public interface IKaiizenViewModelFactory
     {
         ViewModelBase CreateViewModel(ViewType viewType);
     }

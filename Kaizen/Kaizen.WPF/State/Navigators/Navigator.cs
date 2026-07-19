@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
 using System.Windows.Input;
-using SimpleTrader.WPF.Commands;
-using SimpleTrader.WPF.ViewModels;
-using SimpleTrader.WPF.ViewModels.Factories;
+using Kaiizen.WPF.Commands;
+using Kaiizen.WPF.ViewModels;
+using Kaiizen.WPF.ViewModels.Factories;
 
-namespace SimpleTrader.WPF.State.Navigators
+namespace Kaiizen.WPF.State.Navigators
 {
     public class Navigator : INavigator
     {

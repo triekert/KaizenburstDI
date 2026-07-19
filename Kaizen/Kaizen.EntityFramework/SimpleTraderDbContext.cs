@@ -1,18 +1,18 @@
 ﻿using JetBrains.Annotations;
 using Microsoft.EntityFrameworkCore;
-using SimpleTrader.Domain.Models;
+using Kaiizen.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimpleTrader.EntityFramework
+namespace Kaiizen.EntityFramework
 {
-    public class SimpleTraderDbContext : DbContext
+    public class KaiizenDbContext : DbContext
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Account> Accounts { get; set; }
         public DbSet<AssetTransaction> AssetTransactions { get; set; }
-        public SimpleTraderDbContext(DbContextOptions options) : base(options) { }
+        public KaiizenDbContext(DbContextOptions options) : base(options) { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

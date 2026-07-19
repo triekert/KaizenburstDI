@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleTrader.Domain.Services
+namespace Kaiizen.Domain.Services
 {
     public interface IDataService<T>
     {
